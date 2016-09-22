@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity implements IMainAView, PageF
         mActionBar = getSupportActionBar();
         mActionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
         MyTabListener myTabListener = new MyTabListener(listFragment);
-        ActionBar.Tab tab1 = mActionBar.newTab().setText("OneFragment");
-        ActionBar.Tab tab2 = mActionBar.newTab().setText("TwoFragment");
+        ActionBar.Tab tab1 = mActionBar.newTab().setText("国际新闻");
+        ActionBar.Tab tab2 = mActionBar.newTab().setText("科技新闻");
         tab1.setTabListener(myTabListener);
         tab2.setTabListener(myTabListener);
         mActionBar.addTab(tab1);
