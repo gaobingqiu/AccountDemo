@@ -19,7 +19,6 @@ import com.example.gbq.presenter.MainPresenter;
 
 import java.util.ArrayList;
 
-
 /**
  * 1.activity启动后，从后台获取数据，并弹出toast通知
  * 2.TwoFragment 可以点击sendBut，通知activity再从后台获取数据，并弹出通知
