@@ -1,9 +1,9 @@
-package com.example.gbq.fragment;
+package com.gbq.fragment.impl;
 
 /**
  * Created by gbq on 2016-9-22.
  */
-public interface ITwoFView {
+public interface IOneFView {
     /**
      * OneFragment 自己的V方法
      * **/

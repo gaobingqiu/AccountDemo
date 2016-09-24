@@ -1,4 +1,4 @@
-package com.example.gbq.dto;
+package com.gbq.dto;
 
 /**
  * Created by gbq on 2016-9-22.

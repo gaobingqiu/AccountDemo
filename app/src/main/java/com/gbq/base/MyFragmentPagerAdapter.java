@@ -1,4 +1,4 @@
-package com.example.gbq.base;
+package com.gbq.base;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

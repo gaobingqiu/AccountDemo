@@ -1,4 +1,4 @@
-package com.example.gbq.fragment;
+package com.gbq.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,10 +9,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.gbq.accountdemo.R;
-import com.example.gbq.base.PageFragment;
-import com.example.gbq.dto.ServerData;
-import com.example.gbq.presenter.IOneFPresenter;
-import com.example.gbq.presenter.OnePresenter;
+import com.gbq.base.PageFragment;
+import com.gbq.dto.ServerData;
+import com.gbq.fragment.impl.IOneFView;
+import com.gbq.presenter.impl.IOneFPresenter;
+import com.gbq.presenter.OnePresenter;
 
 /**
  * Created by gbq on 2016-9-22.

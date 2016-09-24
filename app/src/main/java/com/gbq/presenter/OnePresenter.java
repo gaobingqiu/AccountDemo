@@ -1,13 +1,14 @@
-package com.example.gbq.presenter;
+package com.gbq.presenter;
 
-import com.example.gbq.fragment.IOneFView;
-import com.example.gbq.model.INetWork;
-import com.example.gbq.model.NetWork;
+import com.gbq.fragment.impl.IOneFView;
+import com.gbq.model.impl.INetWork;
+import com.gbq.model.NetWork;
+import com.gbq.presenter.impl.IOneFPresenter;
 
 /**
  * Created by gbq on 2016-9-22.
  */
-public class OnePresenter implements IOneFPresenter{
+public class OnePresenter implements IOneFPresenter {
     private INetWork netWork;
     private IOneFView oneFragment;
 

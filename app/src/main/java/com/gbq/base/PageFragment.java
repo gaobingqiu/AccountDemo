@@ -1,9 +1,9 @@
-package com.example.gbq.base;
+package com.gbq.base;
 
 
 import android.support.v4.app.Fragment;
 
-import com.example.gbq.dto.ServerData;
+import com.gbq.dto.ServerData;
 
 /**
  * Created by gbq on 2016-9-22.

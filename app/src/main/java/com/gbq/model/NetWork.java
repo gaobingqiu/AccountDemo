@@ -1,13 +1,15 @@
-package com.example.gbq.model;
+package com.gbq.model;
 
 import android.os.Handler;
 
-import com.example.gbq.dto.ServerData;
+import com.gbq.dto.ServerData;
+import com.gbq.model.impl.INetWork;
+import com.gbq.model.listener.GetDataListener;
 
 /**
  * Created by gbq on 2016-9-22.
  */
-public class NetWork implements INetWork{
+public class NetWork implements INetWork {
     private static int MAIN = 0;
     private static int ONE = 0;
     private static int TWO = 0;

@@ -1,6 +1,6 @@
-package com.example.gbq.model;
+package com.gbq.model.listener;
 
-import com.example.gbq.dto.ServerData;
+import com.gbq.dto.ServerData;
 
 /**
  * Created by gbq on 2016-9-22.

@@ -1,4 +1,6 @@
-package com.example.gbq.model;
+package com.gbq.model.impl;
+
+import com.gbq.model.listener.GetDataListener;
 
 /**
  * Created by gbq on 2016-9-22.

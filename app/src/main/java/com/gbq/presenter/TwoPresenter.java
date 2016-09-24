@@ -1,13 +1,14 @@
-package com.example.gbq.presenter;
+package com.gbq.presenter;
 
-import com.example.gbq.fragment.ITwoFView;
-import com.example.gbq.model.INetWork;
-import com.example.gbq.model.NetWork;
+import com.gbq.fragment.impl.ITwoFView;
+import com.gbq.model.impl.INetWork;
+import com.gbq.model.NetWork;
+import com.gbq.presenter.impl.ITwoFPresenter;
 
 /**
  * Created by gbq on 2016-9-22.
  */
-public class TwoPresenter implements ITwoFPresenter{
+public class TwoPresenter implements ITwoFPresenter {
     private INetWork netWork;
     private ITwoFView twoFragment;
 

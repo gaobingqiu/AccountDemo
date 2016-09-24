@@ -1,4 +1,4 @@
-package com.example.gbq.fragment;
+package com.gbq.fragment;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,10 +10,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.gbq.accountdemo.R;
-import com.example.gbq.base.PageFragment;
-import com.example.gbq.dto.ServerData;
-import com.example.gbq.presenter.ITwoFPresenter;
-import com.example.gbq.presenter.TwoPresenter;
+import com.gbq.base.PageFragment;
+import com.gbq.dto.ServerData;
+import com.gbq.fragment.impl.ITwoFView;
+import com.gbq.presenter.impl.ITwoFPresenter;
+import com.gbq.presenter.TwoPresenter;
 
 /**
  * Created by gbq on 2016-9-22.

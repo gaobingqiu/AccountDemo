@@ -1,4 +1,4 @@
-package com.example.gbq.presenter;
+package com.gbq.presenter.impl;
 
 /**
  * Created by gbq on 2016-9-22.

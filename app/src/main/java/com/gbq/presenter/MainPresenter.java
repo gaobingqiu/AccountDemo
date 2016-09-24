@@ -1,15 +1,16 @@
-package com.example.gbq.presenter;
+package com.gbq.presenter;
 
-import com.example.gbq.accountdemo.IMainAView;
-import com.example.gbq.dto.ServerData;
-import com.example.gbq.model.GetDataListener;
-import com.example.gbq.model.INetWork;
-import com.example.gbq.model.NetWork;
+import com.gbq.activity.impl.IMainAView;
+import com.gbq.dto.ServerData;
+import com.gbq.model.listener.GetDataListener;
+import com.gbq.model.impl.INetWork;
+import com.gbq.model.NetWork;
+import com.gbq.presenter.impl.IMainAPresenter;
 
 /**
  * Created by gbq on 2016-9-22.
  */
-public class MainPresenter implements IMainAPresenter{
+public class MainPresenter implements IMainAPresenter {
     private INetWork netWork;
     private IMainAView mainActivity;
 

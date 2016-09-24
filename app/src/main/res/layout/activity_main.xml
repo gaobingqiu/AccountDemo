@@ -5,7 +5,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.gbq.activity.MainActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
