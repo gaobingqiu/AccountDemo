@@ -8,6 +8,7 @@ import com.gbq.model.NetWork;
 import com.gbq.presenter.impl.IMainAPresenter;
 
 /**
+ * MainActivity的行为者
  * Created by gbq on 2016-9-22.
  */
 public class MainPresenter implements IMainAPresenter {

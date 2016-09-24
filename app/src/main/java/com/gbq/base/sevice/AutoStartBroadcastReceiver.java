@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.util.Log;
 
 /**
+ * 接收开机广播并且设置通知开机自启
  * Created by gbq on 2016-9-24.
  */
 public class AutoStartBroadcastReceiver extends BroadcastReceiver{

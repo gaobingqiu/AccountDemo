@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import com.gbq.dto.ServerData;
 
 /**
+ * 基础的Fragment
  * Created by gbq on 2016-9-22.
  */
 public abstract class PageFragment extends Fragment {

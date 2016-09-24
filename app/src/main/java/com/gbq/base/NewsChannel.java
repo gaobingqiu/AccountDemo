@@ -1,6 +1,7 @@
 package com.gbq.base;
 
 /**
+ * 新闻频道
  * Created by gbq on 2016-9-24.
  */
 public class NewsChannel {

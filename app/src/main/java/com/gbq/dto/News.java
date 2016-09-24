@@ -5,10 +5,15 @@ package com.gbq.dto;
  * Created by gbq on 2016-9-24.
  */
 public class News {
+    //时间
     private String ctime;
+    //新闻标题
     private String title;
+    //新闻摘要
     private String description;
+    //新闻图片地址
     private String picUrl;
+    //新闻web地址
     private String url;
 
     public String getCtime() {

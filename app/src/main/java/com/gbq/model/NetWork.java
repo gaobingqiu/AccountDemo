@@ -7,6 +7,7 @@ import com.gbq.model.impl.INetWork;
 import com.gbq.model.listener.GetDataListener;
 
 /**
+ * 获取网络数据
  * Created by gbq on 2016-9-22.
  */
 public class NetWork implements INetWork {

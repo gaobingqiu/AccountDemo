@@ -13,6 +13,7 @@ import com.example.gbq.accountdemo.R;
 import com.gbq.activity.MainActivity;
 
 /**
+ * 开机自启的服务
  * Created by gbq on 2016-9-24.
  */
 public class AutoStartService extends Service {

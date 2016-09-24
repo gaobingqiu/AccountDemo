@@ -61,8 +61,11 @@ public class PersonalActivity extends Activity {
         getImg(user.getAndroidImage());
     }
 
+    /**
+     * 加载网络图片begin,获取头像
+     * @param url
+     */
     public void getImg(String url) {
-        // 加载网络图片begin
         // 创建客户端对象
         url = HttpUtil.SERVER_IP + url;
         AsyncHttpClient client = new AsyncHttpClient();
@@ -84,6 +87,10 @@ public class PersonalActivity extends Activity {
         // 加载网络图片end
     }
 
+    /**
+     * 退出登录
+     * @param view
+     */
     public void toOut(View view) {
         Log.d(tag, "userOut");
         Intent intent = new Intent();
@@ -91,18 +98,29 @@ public class PersonalActivity extends Activity {
         startActivity(intent);
     }
 
+    /**
+     * 跳转到新闻页面
+     * @param view
+     */
     public void toNews(View view) {
         Intent intent = new Intent();
-        //intent.setClass(PersonalActivity.this, NewsMainActivity.class);
+        intent.setClass(PersonalActivity.this, NewsActivity.class);
         startActivity(intent);
     }
 
+    /**
+     * 头像修改
+     * @param view
+     */
     public void changeImg(View view) {
         Intent intent = new Intent();
         intent.setClass(PersonalActivity.this, PhotoActivity.class);
         startActivity(intent);
     }
 
+    /**
+     * 设置新闻列表
+     */
     public void setList() {
         linkList = (ListView) findViewById(R.id.lv_link);
         int lengh = mListTitle.length;

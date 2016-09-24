@@ -16,6 +16,7 @@ import com.gbq.presenter.impl.IOneFPresenter;
 import com.gbq.presenter.OnePresenter;
 
 /**
+ * 综合新闻Fragment
  * Created by gbq on 2016-9-22.
  */
 public class OneFragment extends PageFragment implements IOneFView {

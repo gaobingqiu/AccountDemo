@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import java.util.ArrayList;
 
 /**
+ * Fragment的迭代器
  * Created by gbq on 2016-9-22.
  */
 public class MyFragmentPagerAdapter extends FragmentStatePagerAdapter {

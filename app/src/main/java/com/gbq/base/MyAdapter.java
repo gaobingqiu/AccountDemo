@@ -18,6 +18,7 @@ import com.net.BitmapCache;
 import java.util.List;
 
 /**
+ * 新闻列表的迭代器
  * Created by gbq on 2016-9-24.
  */
 public class MyAdapter extends BaseAdapter {

@@ -6,6 +6,7 @@ import com.gbq.model.NetWork;
 import com.gbq.presenter.impl.ITwoFPresenter;
 
 /**
+ * 科技新闻Fragment的行为者
  * Created by gbq on 2016-9-22.
  */
 public class TwoPresenter implements ITwoFPresenter {

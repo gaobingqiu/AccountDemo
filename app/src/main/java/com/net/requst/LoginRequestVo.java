@@ -8,7 +8,7 @@ public class LoginRequestVo {
     private String userName;
 
     private String password;
-
+    //记录了手机的mac地址
     private String token;
 
     public String getUserName() {

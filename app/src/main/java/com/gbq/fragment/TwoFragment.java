@@ -17,6 +17,7 @@ import com.gbq.presenter.impl.ITwoFPresenter;
 import com.gbq.presenter.TwoPresenter;
 
 /**
+ * 科技新闻Fragment
  * Created by gbq on 2016-9-22.
  */
 public class TwoFragment extends PageFragment implements ITwoFView {
@@ -26,11 +27,6 @@ public class TwoFragment extends PageFragment implements ITwoFView {
     private ServerData serverData;
 
     private IMainCallBack activityCallBack;
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
